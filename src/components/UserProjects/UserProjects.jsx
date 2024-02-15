@@ -108,7 +108,7 @@ export default function UserProjects({ userData, setProject }){
                 <div>
                     <div className='flex alignCenter'>
                         <h2 className='userProjectsH2'>Projetos criados por você</h2>
-                        <FaRegSquarePlus onClick={() => navigate('/newproject')} className='iconBtn' size={32} />
+                        <FaRegSquarePlus onClick={() => navigate('/zesty-frontend/newproject')} className='iconBtn' size={32} />
                     </div>
                     {myProjects.length == 0 ? null :
                         <div>
@@ -116,7 +116,7 @@ export default function UserProjects({ userData, setProject }){
                                 <div key={project._id} id={project._id} className='myProjectsIndividualDiv'>
                                     <h3 style={{color: '#1B998B'}} className='projectTitle' onClick={() => {
                                         setProject(project)
-                                        navigate('/project')
+                                        navigate('/zesty-frontend/project')
                                     }}>{project.name}</h3>
                                     <div className='flex gap alignCenter spaceBetween wrap'>
                                         <div>
@@ -151,7 +151,7 @@ export default function UserProjects({ userData, setProject }){
                                 <div className='myProjectsIndividualDiv'>
                                     <h3 style={{color: '#1B998B'}} className='projectTitle' onClick={() => {
                                         setProject(project)
-                                        navigate('/project')
+                                        navigate('/zesty-frontend/project')
                                     }}>{project.name}</h3>
                                     <div className='flex gap alignCenter spaceBetween wrap'>
                                         <div>

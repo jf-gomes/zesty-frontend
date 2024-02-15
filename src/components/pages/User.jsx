@@ -13,14 +13,14 @@ export default function User(){
 
     useEffect(() => {
         if (!userData.name){
-            navigate('/')
+            navigate('/zesty-frontend')
         }
     }, [])
 
     if (!userData.name){
         return (
             <div>
-                <p>Usuário não encontrado. <a href="" onClick={() => navigate('/login')}>Fazer login.</a></p>
+                <p>Usuário não encontrado. <a href="" onClick={() => navigate('/zesty-frontend/login')}>Fazer login.</a></p>
             </div>
         )
     } else {

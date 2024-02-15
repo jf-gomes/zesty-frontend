@@ -13,7 +13,7 @@ export default function UserHeader({ userData }){
                 <img src={icon} alt="" style={{width: '80px', height: '80px'}} />
                 <p style={{color: 'white'}}>Bem vindo(a), {userData.name.toUpperCase()}!</p>
             </div>
-            <CgLogOff onClick={() => navigate('/')} size={32} className='iconBtn' />
+            <CgLogOff onClick={() => navigate('/zesty-frontend')} size={32} className='iconBtn' />
         </header>
     )
 }

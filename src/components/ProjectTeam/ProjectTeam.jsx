@@ -106,7 +106,7 @@ export default function ProjectTeam({ project }){
                                         name: member.name
                                     }
                                 ])
-                                navigate('/message')
+                                navigate('/zesty-frontend/message')
                             }} />
                             <FaUserXmark onClick={() => removeMember(member)} className="iconBtn" size={24} />
                         </div>

@@ -39,7 +39,7 @@ export default function Login(){
             if (login.status == 200){
                 setToken(`${response.data.token}`)
                 setUserData(response.data.user)
-                navigate('/user')
+                navigate('/zesty-frontend/user')
                 setLoader(false)
             }
         } catch(err){

@@ -52,7 +52,7 @@ export default function SignUp(){
                 if (login.status == 200){
                     setToken(`${loginResponse.data.token}`)
                     setUserData(loginResponse.data.user)
-                    navigate('/user')
+                    navigate('/zesty-frontend/user')
                     setLoader(false)
                 } else {
                     setLoader(false)

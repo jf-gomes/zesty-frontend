@@ -27,8 +27,8 @@ export default function FirstSection(){
                     <h2 className='slogan'>Onde os projetos florescem</h2>
                 </div>
                 <div className='flex gap'>
-                    <button className='btn' onClick={() => navigate('/signup')}>Crie sua conta</button>
-                    <button className='btn' onClick={() => navigate('/login')}>Entrar</button>
+                    <button className='btn' onClick={() => navigate('/zesty-frontend/signup')}>Crie sua conta</button>
+                    <button className='btn' onClick={() => navigate('/zesty-frontend/login')}>Entrar</button>
                 </div>
             </div>
         </section>

@@ -41,7 +41,7 @@ export default function ProjectHeader({ project, activeSection, setActiveSection
           <li>
             <a href="" onClick={(e) => {
               e.preventDefault()
-              navigate('/user')
+              navigate('/zesty-frontend/user')
             }}>Voltar</a>
           </li>
         </ul>
