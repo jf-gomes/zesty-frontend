@@ -15,14 +15,14 @@ function App() {
     <AuthProvider>
       <Router>
         <Routes>
-          <Route path='/' element={<Home />}></Route>
-          <Route path='/signup' element={<SignUp />}></Route>
-          <Route path='/login' element={<Login />}></Route>
-          <Route path='/user' element={<User />}></Route>
-          <Route path='/project' element={<Project />}></Route>
-          <Route path='/message' element={<Message />}></Route>
-          <Route path='/newproject' element={<NewProject />}></Route>
-          <Route path='/addtask' element={<AddTask />}></Route>
+          <Route path='/zesty-frontend' element={<Home />}></Route>
+          <Route path='/zesty-frontend/signup' element={<SignUp />}></Route>
+          <Route path='/zesty-frontend/login' element={<Login />}></Route>
+          <Route path='/zesty-frontend/user' element={<User />}></Route>
+          <Route path='/zesty-frontend/project' element={<Project />}></Route>
+          <Route path='/zesty-frontend/message' element={<Message />}></Route>
+          <Route path='/zesty-frontend/newproject' element={<NewProject />}></Route>
+          <Route path='/zesty-frontend/addtask' element={<AddTask />}></Route>
         </Routes>
       </Router>
     </AuthProvider>
