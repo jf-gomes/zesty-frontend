@@ -1,0 +1,14 @@
+.userHeader{
+    background-color: #656176;
+    padding: 2rem;
+    font-size: 1.3em;
+}
+
+.logoutBtn{
+    color: white;
+}
+
+.logoutBtn:hover{
+    cursor: pointer;
+    color: #1B998B;
+}

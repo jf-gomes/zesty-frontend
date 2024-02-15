@@ -1,0 +1,22 @@
+.messages{
+    min-width: 300px;
+    max-width: 800px;
+}
+
+.msgFrom{
+    color: gray;
+}
+
+.msgDiv{
+    border-radius: 100px;
+    padding: 2rem;
+    width: 300px;
+}
+
+.msgInputBox{
+    width: 300px;
+}
+
+.msgSendBtn{
+    width: 300px;
+}

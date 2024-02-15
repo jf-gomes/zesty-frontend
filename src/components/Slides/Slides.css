@@ -1,0 +1,27 @@
+.slideImg{
+    width: 100%;
+}
+
+.slidesContainerDiv{
+    width: 600px;
+    padding: 2rem;
+}
+
+@media (max-width: 1068px) {
+    .slidesContainerDiv{
+        width: 400px;
+    }
+}
+
+@media (max-width: 870px) {
+    .slidesContainerDiv{
+        width: 350px;
+    }
+}
+
+@media (max-width: 560px) {
+    .slidesContainerDiv{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

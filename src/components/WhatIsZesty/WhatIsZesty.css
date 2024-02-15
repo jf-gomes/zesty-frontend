@@ -1,0 +1,18 @@
+.sect2{
+    background-color: #DECDF5
+}
+
+.sect2Img{
+    max-width: 700px;
+    min-width: 350px;
+}
+
+.sect2 div{
+    max-width: 700px;
+}
+
+.sect2 div p{
+    text-align: justify;
+    font-weight: 500;
+    font-size: 1.3em;
+}

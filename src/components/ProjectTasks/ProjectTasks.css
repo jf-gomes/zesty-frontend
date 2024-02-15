@@ -1,0 +1,28 @@
+.addTaskDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tasksContainerDiv{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.taskIndividualDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #F8F1FF;
+    width: 350px;
+    height: 400px;
+    padding: 12px;
+    box-shadow: 6px 7px 13px -13px;
+}
+
+.taskTitle{
+    text-align: center;
+}

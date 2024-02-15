@@ -1,0 +1,39 @@
+.postsContainerDiv{
+    margin: 2rem;
+}
+
+.postIndividualDiv{
+    background-color: #534D56;
+    color: white;
+    padding: 2rem;
+    width: 600px;
+    border-radius: 8px;
+    box-shadow: 6px 7px 13px -13px;
+}
+
+.commentBtn{
+    background-color: white;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+    transition: .6s;
+}
+
+.commentBtn:hover{
+    cursor: pointer;
+    background-color: #656176;
+    color: white;
+}
+
+@media (max-width: 720px) {
+    .postIndividualDiv{
+        width: 350px;
+    }
+}
+
+@media (max-width: 500px) {
+    .postIndividualDiv{
+        width: 300px;
+    }
+}

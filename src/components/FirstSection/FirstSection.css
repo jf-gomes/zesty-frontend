@@ -1,0 +1,42 @@
+.icon{
+    max-width: 300px;
+    min-width: 100px;
+    transform: rotate(180deg) translateX(1000px);
+}
+
+.sect1{
+    height: 60vh;
+    opacity: 0;
+}
+
+.mainTitle{
+    font-size: 2em;
+}
+
+.btn{
+    width: 150px;
+    background-color: #DECDF5;
+    border: none;
+    font-size: 1.3em;
+    padding: 6px;
+    border-radius: 8px;
+    transition: .6s;
+}
+
+.btn:hover{
+    background-color: #1B998B;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 720px){
+    .icon{
+        width: 100px;
+    }
+    .slogan{
+        font-size: 1.3em;
+    }
+    .btn{
+        width: 100px;
+    }
+}

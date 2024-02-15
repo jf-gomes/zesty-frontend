@@ -1,0 +1,26 @@
+.projectTeamMembersDiv{
+    padding: 2rem;
+    border: 1px solid black;
+}
+
+.addTeamMemberBtn:hover{
+    cursor: pointer;
+    color: #1B998B;
+}
+
+.addTeamMemberName{
+    width: 250px;
+}
+
+.addTeamMemberInputDiv{
+    margin: -1rem 2rem 2rem 2rem;
+}
+
+.addTeamMemberInputDiv input{
+    border: none;
+    background-color: #b8eee8;
+    padding: 8px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    width: 300px;
+}

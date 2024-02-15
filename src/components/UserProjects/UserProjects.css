@@ -1,0 +1,43 @@
+.userProjectsH2{
+    padding: 2rem;
+}
+
+.projectTitle:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.userProjectsMain{
+    height: 100vh;
+    background-image: linear-gradient(to right, #DECDF5, #fff);
+    display: flex;
+    flex-direction: column;
+}
+
+.myProjectsContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.myProjectsIndividualDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+.invitesContainerDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+.myProjectsNoneDiv{
+    height: 100vh;
+}
