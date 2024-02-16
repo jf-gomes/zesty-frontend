@@ -2,8 +2,11 @@ import teamIcon from '../../img/teamIcon.png'
 import projectIcon from '../../img/projectIcon.png'
 import organizationIcon from '../../img/organizationIcon.png'
 import './Qualities.css'
+import { useNavigate } from 'react-router-dom'
 
 export default function Qualities(){
+
+    const navigate = useNavigate()
 
     const qualitiesData = [
         {
@@ -35,7 +38,7 @@ export default function Qualities(){
             </div>
             <div className='qualitiesRightDiv flex column gap'>
                 <p>Com Zesty você reúne sua equipe, organiza seu projeto, controla suas tarefas e muito mais!</p>
-                <button className='qualitiesBtn'>Começar agora!</button>
+                <button className='qualitiesBtn' onClick={() => navigate('/zesty-frontend/signup')}>Começar agora!</button>
             </div>
         </div>
     )
