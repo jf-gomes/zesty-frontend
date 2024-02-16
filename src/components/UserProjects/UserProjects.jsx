@@ -186,7 +186,7 @@ export default function UserProjects({ userData, setProject }){
                         <div>
                             <div className='invitesContainerDiv'>
                                 {invites.map((invite) => (
-                                    <div className='flex gap spaceBetween'>
+                                    <div key={invite.projectName} className='flex gap spaceBetween'>
                                         <div>
                                             <p style={{color: '#1B998B'}}>Projeto: {invite.projectName}</p>
                                             <p>Convite enviado por: {invite.inviteFrom}</p>

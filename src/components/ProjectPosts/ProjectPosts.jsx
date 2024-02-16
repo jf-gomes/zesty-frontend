@@ -1,5 +1,5 @@
 import { IoIosCreate } from "react-icons/io";
-import AddPost from "../pages/AddPost.jsx";
+import AddPost from "../pages/AddPost/AddPost.jsx";
 import { useEffect, useState } from "react";
 import { api } from '../../services/api.js'
 import './ProjectPosts.css'

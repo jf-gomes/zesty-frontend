@@ -1,8 +1,8 @@
-import { AuthContext } from '../../contexts/auth.jsx'
+import { AuthContext } from '../../../contexts/auth.jsx'
 import { useContext, useState, useEffect } from 'react'
-import ProjectHeader from '../ProjectHeader/ProjectHeader.jsx'
-import ProjectSection from '../ProjectSection/ProjectSection.jsx'
-import logoGrey from '../../img/logo_grey.png'
+import ProjectHeader from '../../ProjectHeader/ProjectHeader.jsx'
+import ProjectSection from '../../ProjectSection/ProjectSection.jsx'
+import logoGrey from '../../../img/logo_grey.png'
 import { useNavigate } from 'react-router-dom'
 
 export default function Project(){

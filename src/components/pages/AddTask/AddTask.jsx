@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState, useContext } from 'react'
-import Loading from '../Loading/Loading.jsx'
-import { api } from '../../services/api.js'
-import CloseBtn from '../CloseBtn/CloseBtn.jsx'
-import { AuthContext } from '../../contexts/auth.jsx'
+import Loading from '../../Loading/Loading.jsx'
+import { api } from '../../../services/api.js'
+import CloseBtn from '../../CloseBtn/CloseBtn.jsx'
+import { AuthContext } from '../../../contexts/auth.jsx'
 import { useNavigate } from 'react-router-dom'
 
 export default function AddTask({ project, setShowAddTask, getTasks }){

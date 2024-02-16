@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import AuthProvider from './contexts/auth.jsx'
-import Home from './components/pages/Home'
+import Home from './components/pages/Home/Home.jsx'
 import SignUp from './components/pages/SignUp/SignUp.jsx'
-import Login from './components/pages/Login.jsx'
-import User from './components/pages/User.jsx'
-import Project from './components/pages/Project.jsx'
+import Login from './components/pages/Login/Login.jsx'
+import User from './components/pages/User/User.jsx'
+import Project from './components/pages/Project/Project.jsx'
 import Message from './components/pages/Message/Message.jsx'
 import NewProject from './components/pages/NewProject/NewProject.jsx'
-import AddTask from './components/pages/AddTask.jsx'
+import AddTask from './components/pages/AddTask/AddTask.jsx'
 
 function App() {
 

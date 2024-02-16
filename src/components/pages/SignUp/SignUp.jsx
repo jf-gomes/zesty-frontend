@@ -38,30 +38,8 @@ export default function SignUp(){
                 terms: terms,
                 newsletter: newsletter
             })
-            if (response.status == 201){
-                //Login
-                const loginResponse = await api.post('/users/login', {
-                    email: emailRef.current.value,
-                    password: passwordRef.current.value
-                })
-                const login = await api.get('/users/' + loginResponse.data.id, {
-                    headers: {
-                        'Authorization': `Bearer ${loginResponse.data.token}`
-                    }
-                })
-                if (login.status == 200){
-                    setToken(`${loginResponse.data.token}`)
-                    setUserData(loginResponse.data.user)
-                    navigate('/zesty-frontend/user')
-                    setLoader(false)
-                } else {
-                    setLoader(false)
-                    alert('Erro inesperado, tente novamente.')
-                }
-            } else {
-                setLoader(false)
-                alert('Erro inesperado, tente novamente.')
-            }
+            console.log(response)
+            navigate('/zesty-frontend/login')
         }
     }
 

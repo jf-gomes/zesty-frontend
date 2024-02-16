@@ -1,6 +1,6 @@
-import UserHeader from "../UserHeader/UserHeader.jsx"
-import UserProjects from "../UserProjects/UserProjects.jsx"
-import { AuthContext } from '../../contexts/auth.jsx'
+import UserHeader from "../../UserHeader/UserHeader.jsx"
+import UserProjects from "../../UserProjects/UserProjects.jsx"
+import { AuthContext } from '../../../contexts/auth.jsx'
 import { useContext, useEffect } from 'react'
 import { useNavigate } from "react-router-dom"
 

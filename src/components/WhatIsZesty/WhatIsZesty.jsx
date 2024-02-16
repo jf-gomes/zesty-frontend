@@ -2,7 +2,7 @@ import './WhatIsZesty.css'
 
 export default function WhatIsZesty(){
     return (
-        <section className='sect2 flex alignCenter justifyCenter gap innerSpace wrap'>
+        <section id='whatIsZestySection' className='sect2 flex alignCenter justifyCenter gap innerSpace wrap'>
             <div className='flex column gap'>
                 <h2>O que é Zesty?</h2>
                 <p>Zesty é uma ferramenta para gerenciamento de projetos e trabalho colaborativo.</p>

@@ -20,13 +20,13 @@ export default function Header(){
         </div>
         <ul className={menuOpen ? "open" : null}>
           <li>
-            <NavLink to="/about">O que é Zesty</NavLink>
+            <a href="#whatIsZestySection">O que é Zesty</a>
           </li>
           <li>
-            <NavLink to="/services">Como funciona</NavLink>
+            <a href="#whatCanYouDoSection">Como funciona</a>
           </li>
           <li>
-            <NavLink to="/login">Começar</NavLink>
+            <NavLink to="/zesty-frontend/login">Começar</NavLink>
           </li>
         </ul>
       </nav>

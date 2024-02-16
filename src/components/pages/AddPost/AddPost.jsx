@@ -1,8 +1,8 @@
 import { useRef, useState, useContext } from "react"
-import Loading from "../Loading/Loading.jsx"
-import { api } from '../../services/api.js'
-import { AuthContext } from '../../contexts/auth.jsx'
-import CloseBtn from '../CloseBtn/CloseBtn.jsx'
+import Loading from "../../Loading/Loading.jsx"
+import { api } from '../../../services/api.js'
+import { AuthContext } from '../../../contexts/auth.jsx'
+import CloseBtn from '../../CloseBtn/CloseBtn.jsx'
 
 export default function AddPost({ project, setShowPosts, getPosts }){
 

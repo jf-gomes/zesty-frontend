@@ -1,0 +1,35 @@
+footer {
+    background-color: #534D56;
+    padding: 2rem;
+}
+
+footer img {
+    width: 100px;
+    height: 100px;
+}
+
+footer div ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+footer div ul a{
+    color: white;
+    text-decoration: none;
+}
+
+footer div ul a:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    color: white;
+    font-size: .8em;
+    text-align: center;
+}
+
+.footerIconsDiv{
+    display: flex;
+    gap: 2rem;
+}

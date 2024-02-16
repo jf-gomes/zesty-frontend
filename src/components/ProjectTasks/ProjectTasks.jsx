@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { MdOutlineAddTask } from "react-icons/md";
-import AddTask from "../pages/AddTask.jsx";
+import AddTask from "../pages/AddTask/AddTask.jsx";
 import './ProjectTasks.css'
 import { api } from '../../services/api.js'
 import Loading from "../Loading/Loading.jsx";

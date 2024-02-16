@@ -1,10 +1,12 @@
-import logo from '../../img/logo.png'
-import { AuthContext } from '../../contexts/auth.jsx'
+import logo from '../../../img/logo.png'
+import { AuthContext } from '../../../contexts/auth.jsx'
 import { useContext, useState } from 'react'
 import { useRef } from 'react'
-import { api } from '../../services/api.js'
+import { api } from '../../../services/api.js'
 import { useNavigate } from 'react-router-dom'
-import Loading from '../Loading/Loading.jsx'
+import Loading from '../../Loading/Loading.jsx'
+import { Link } from 'react-router-dom'
+import './Login.css'
 
 export default function Login(){
 
@@ -66,6 +68,10 @@ export default function Login(){
                 </div>
                 <p style={!loginError ? {display: 'none'} : {color: 'red'}}>{!loginError ? null : loginError}</p>
                 <input className='btn' type="submit" value="Entrar" onClick={handleSubmit} />
+                <div>
+                    <p className='dontHaveAccount'>Não possui uma conta? <Link to='/zesty-frontend/signup'>Faça seu cadastro!</Link></p>
+                    <p className='dontHaveAccount'>Esqueceu a senha? <Link to='/zesty-frontend/signup'>Recuperar!</Link></p>
+                </div>
                 {loader ? <Loading /> : null}
             </form>
         </main>
