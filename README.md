@@ -28,41 +28,41 @@ O projeto permite ao usuário:
 
 ### Tela de criação de conta
 
-<img src="https://i.imgur.com/ag1gMTq.jpg" width="600px" height="300px">
+<img src="https://i.imgur.com/ag1gMTq.jpg" width="800px" height="500px">
 
 ### Tela de login
 
-<img src="https://i.imgur.com/cN2WD6m.jpg" width="600px" height="300px">
+<img src="https://i.imgur.com/cN2WD6m.jpg" width="800px" height="500px">
 
 ### Tela de projetos
 
 Aqui o usuário pode visualizar os projetos criados por ele ou os projetos de colegas dos quais ele faz parte. Também é possível criar um novo projeto, concluir ou apagar um projeto e visualizar os convites para projetos de colegas.
 
-<img src="https://i.imgur.com/r5n399Z.jpg" width="600px" height="300px">
+<img src="https://i.imgur.com/r5n399Z.jpg" width="800px" height="500px">
 
-<img src="https://i.imgur.com/xEWx0Ly.jpg" width="600px" height="300px">
+<img src="https://i.imgur.com/xEWx0Ly.jpg" width="800px" height="500px">
 
 ### Projeto
 
 Ao clicar em um projeto, o usuário entrará no ambiente daquele projeto, onde será possível visualizar os membros da equipe, convidar novos membros, adicionar e gerenciar tarefas e publicações e mais.
 
-<img src="https://i.imgur.com/dnaEna8.jpg" width="600px" height="300px">
+<img src="https://i.imgur.com/dnaEna8.jpg" width="800px" height="500px">
 
 ### Gerenciar tarefas
 
-<img src="https://i.imgur.com/7nPMFSl.jpg" width="600px" height="300px">
+<img src="https://i.imgur.com/7nPMFSl.jpg" width="800px" height="500px">
 
 ### Convidar colegas
 
-<img src="https://i.imgur.com/YjuZ7XW.jpg" width="600px" height="300px">
+<img src="https://i.imgur.com/YjuZ7XW.jpg" width="800px" height="500px">
 
 ### Trocar mensagens
 
-<img src="https://i.imgur.com/sGt8LzL.jpg" width="600px" height="300px">
+<img src="https://i.imgur.com/sGt8LzL.jpg" width="800px" height="500px">
 
 ### Publicações
 
-<img src="https://i.imgur.com/rq4oRml.jpg" width="600px" height="300px">
+<img src="https://i.imgur.com/rq4oRml.jpg" width="800px" height="500px">
 
 ## 💻 Tecnologias utilizadas
 
