@@ -12,11 +12,11 @@ Zesty é uma solução para gerenciamento de projetos e trabalho colaborativo. A
 
 ## 🔥 Funcionalidades
 
-O projeto permite que o usuário:
+O projeto permite ao usuário:
 
-* Crie uma conta
-* Faça login
-* Crie projetos
+* Criar uma conta
+* Fazer login
+* Criar projetos
 * Convidar colegas para fazer parte de seus projetos
 * Remover colegas de um projeto
 * Fazer parte de projetos de colegas
