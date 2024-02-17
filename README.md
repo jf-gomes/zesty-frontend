@@ -1,4 +1,4 @@
-![GatherSphere](https://i.imgur.com/7RP5J3l.png)
+<img src="https://i.imgur.com/7RP5J3l.png">
 
 # Zesty
 
@@ -26,39 +26,43 @@ O projeto permite que o usuário:
 * Concluir ou remover tarefas
 * Adicionar e remover publicações
 
-### Tela inicial
-
-Aqui o usuário pode criar uma conta ou entrar. Os dados cadastrados são enviados ao banco de dados via API.
-
-![Homepage](https://i.imgur.com/mxFEJkK.jpg)
-
 ### Tela de criação de conta
 
-![Create an account](https://i.imgur.com/ag1gMTq.jpg)
+<img src="https://i.imgur.com/ag1gMTq.jpg" width="600px" height="300px">
 
 ### Tela de login
 
-![Sign in](https://i.imgur.com/cN2WD6m.jpg)
+<img src="https://i.imgur.com/cN2WD6m.jpg" width="600px" height="300px">
 
 ### Tela de projetos
 
 Aqui o usuário pode visualizar os projetos criados por ele ou os projetos de colegas dos quais ele faz parte. Também é possível criar um novo projeto, concluir ou apagar um projeto e visualizar os convites para projetos de colegas.
 
-![Projects screen](https://i.imgur.com/r5n399Z.jpg)
+<img src="https://i.imgur.com/r5n399Z.jpg" width="600px" height="300px">
 
-![Create project](https://i.imgur.com/xEWx0Ly.jpg)
+<img src="https://i.imgur.com/xEWx0Ly.jpg" width="600px" height="300px">
 
-### Eventos do usuário
+### Projeto
 
-Aqui o usuário pode visualizar os eventos nos quais ele se inscreveu e cancelar a inscrição.
+Ao clicar em um projeto, o usuário entrará no ambiente daquele projeto, onde será possível visualizar os membros da equipe, convidar novos membros, adicionar e gerenciar tarefas e publicações e mais.
 
-![User events](https://i.imgur.com/FLxDnDR.jpg)
+<img src="https://i.imgur.com/dnaEna8.jpg" width="600px" height="300px">
 
-### Editar cadastro
+### Gerenciar tarefas
 
-Aqui o usuário pode visualizar seus dados cadastrados e realizar alterações.
+<img src="https://i.imgur.com/7nPMFSl.jpg" width="600px" height="300px">
 
-![User data](https://i.imgur.com/2kqJeds.jpg)
+### Convidar colegas
+
+<img src="https://i.imgur.com/YjuZ7XW.jpg" width="600px" height="300px">
+
+### Trocar mensagens
+
+<img src="https://i.imgur.com/sGt8LzL.jpg" width="600px" height="300px">
+
+### Publicações
+
+<img src="https://i.imgur.com/rq4oRml.jpg" width="600px" height="300px">
 
 ## 💻 Tecnologias utilizadas
 
@@ -87,15 +91,20 @@ Aqui o usuário pode visualizar seus dados cadastrados e realizar alterações.
 
 ### O que aprendi com esse projeto?
 
-Ao longo do desenvolvimento, aprimorei significativamente minhas habilidades com backend, já que este foi o primeiro projeto que desenvolvi com banco de dados e API própria.
+- Organização de pastas e código em geral.
+- Aprofundamento em requisições HTTP.
+- Experiência com projetos com múltiplas funcionalidades.
+- Importância do TypeScript e das bibliotecas de estilização (Bootstrap e Tailwind).
 
 ### O que pode ser aprimorado?
 
-Responsividade em smartphones e opções de controle por parte dos administradores do sistema.
+- Utilizar as variáveis de ambiente no backend.
+- Utilizar TypeScript para um sistema mais robusto e escalável.
+- Focar na facilidade no uso do sistema.
 
 ### Por que essa ideia é útil?
 
-Durante minha jornada profissional em uma Escola Superior, notei o quão desafiador é organizar os eventos realizados por uma instituição de ensino. Os desafios incluem: controlar as vagas disponibilizadas, manter contato com o provedor do evento, gerenciar os participantes, emitir certificados, entre outros. Sendo assim, essa ideia é útil para concentrar todo o gerenciamento de eventos em um único local, garantindo agilidade, eficiência e organização na gestão.
+É comum em organizações de qualquer setor a utilização de alguma ferramenta para acompanhar projetos e organizar tarefas. Ferramentas como Trello, Jira e SEI são indispensáveis na atualidade, tanto nas empresas públicas, como nas privadas. Esse cenário, em conjunto com o interesse que desenvolvi sobre computação em nuvem (uma das minhas disciplinas favoritas da Pós-Graduação em Redes de Computadores), contribuíram para que eu me propusesse o desafio de desenvolver esse sistema, que, apesar de ainda estar em estágio inicial, pode ser aprimorado com mais funcionalidades para se tornar um sistema completo e seguro.
 
 ## 👨 Autor
 
